@@ -1,3 +1,11 @@
+@font-face {
+	font-family: "SOGANG_UNIVERSITY_for_windows";
+	src: url(./font/SOGANG_UNIVERSITY_for_windows.ttf);
+}
+:root {
+  --font-sogang: "SOGANG_UNIVERSITY_for_windows"
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +18,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+ul {
+  list-style: none;
 }

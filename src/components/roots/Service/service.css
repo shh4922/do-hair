@@ -1,0 +1,70 @@
+.service {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    
+}
+.service .service-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 150px;
+    
+}
+.service .service-content div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+    
+    
+}
+.service .service-content div strong {
+    font-size: 40px;
+    color: #c2ad92;
+    padding: 10px 0;
+    border-bottom: 1px solid #c2ad92;
+}
+.service .service-content div p {
+    color: #fff;
+    padding: 20px 0;
+}
+.service .service-content div img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    .service {
+        height: auto;
+    }
+    .service .service-content {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+        padding: 20px 0;
+    }
+    
+    .service .service-content div strong {
+        font-size: 25px;
+    }
+    .service .service-content div p {
+        color: #fff;
+        padding: 20px 5px;
+        font-size: 15px;
+    }
+    .service .service-content div img {
+        max-width: 300px;
+        max-height: 350px;
+    }
+}
