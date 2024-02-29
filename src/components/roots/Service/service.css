@@ -10,19 +10,22 @@
 }
 .service .service-content {
     display: flex;
+    /* justify-content: space-between; */
     justify-content: center;
+    /* background-color: red; */
     width: 100%;
-    height: 100%;
-    gap: 150px;
+    /* height: 100%; */
+    gap: 5rem;
     
 }
 .service .service-content div {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     max-width: 450px;
-    
+    /* background-color: antiquewhite; */
     
 }
 .service .service-content div strong {
@@ -30,16 +33,19 @@
     color: #c2ad92;
     padding: 10px 0;
     border-bottom: 1px solid #c2ad92;
+    
 }
 .service .service-content div p {
     color: #fff;
-    padding: 20px 0;
+    padding: 15px 0;
+    height: 150px;
 }
 .service .service-content div img {
     width: 100%;
-    height: 500px;
-    border-radius: 10px;
     
+    height: 450px;
+    
+    border-radius: 10px;
 }
 
 
