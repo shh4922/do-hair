@@ -24,7 +24,7 @@ function About() {
             </div>
             <div className="about-right">
                 <div className="about-right-content">
-                    <img src="staticfile/img1.jpeg"></img>
+                    <img alt="디오헤어 미용실 내부" src="staticfile/img1.jpeg"></img>
                 </div>
             </div>
         </section>

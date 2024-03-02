@@ -12,7 +12,7 @@ function Service() {
                         <br></br>
                         전문 스타일리스트가 고객 개개인에 맞는 세련된 스타일링을 제안합니다.
                     </p>
-                    <img src="staticfile/img4.jpeg"></img>
+                    <img alt="광주 디오헤어 미용실 내부" src="staticfile/img4.jpeg"></img>
                 </div>
                 <div >
                     <strong>Spa</strong>
@@ -23,7 +23,7 @@ function Service() {
                         디오헤어 헤드스파의 제품은
                         이탈리아 유기농 경작 테라피 제품으로써,
                         동물 임상 실험이 아닌 사람에게 직접 임상 성공하였습니다.</p>
-                    <img src="staticfile/img2.jpeg"></img>
+                    <img alt="광주 디오헤어 헤드스파 기계" src="staticfile/img2.jpeg"></img>
                 </div>
                 <div >
                     <strong>Massage</strong>
@@ -32,7 +32,7 @@ function Service() {
                         <br></br>
                         편안함과 아름다움을 동시에 즐길 수 있는 특별한 서비스를 만나보세요."
                     </p>
-                    <img src="staticfile/img6.jpeg"></img>
+                    <img alt="마사지를 받는 사람" src="staticfile/img6.jpeg"></img>
                 </div>
             </div>
         </section>
