@@ -7,7 +7,7 @@ function About() {
             <div className="about-left">
                 <div className="about-left-content">
                     <h2>about</h2>
-                    <p>D.O Hair is your companion on a journey to beauty,<br></br> offering top-notch salon and scalp spa services</p>
+                    <p>D.O Hair is your companion on a journey to beauty,offering top-notch salon and scalp spa services</p>
                     <div>
                         <strong>Decolte & Hot Stone Technic</strong>
                         <p>네이프선, 어깨, 등 마사지를 통한 <br></br> 피로회복 및 혈액순환 효과</p>

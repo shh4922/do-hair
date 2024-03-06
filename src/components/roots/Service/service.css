@@ -1,5 +1,5 @@
 .service {
-    background-color: black;
+    background-color: rgb(23, 21, 20);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -26,6 +26,7 @@
     align-items: center;
     max-width: 450px;
     /* background-color: antiquewhite; */
+    margin: 0 20px;
     
 }
 .service .service-content div strong {
@@ -38,14 +39,13 @@
 .service .service-content div p {
     color: #fff;
     padding: 15px 0;
-    height: 150px;
+    margin-bottom: 5px;
 }
 .service .service-content div img {
     width: 100%;
-    
     height: 450px;
-    
     border-radius: 10px;
+    object-fit: cover;
 }
 
 
